@@ -6,8 +6,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>My Portfolio</title>
-	<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
-	<link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
     <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900" rel="stylesheet">
     <link rel="stylesheet" href="libs/font-awesome/css/font-awesome.min.css">
     <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -33,7 +33,7 @@
             <li>
                 <a href="#education">Education</a>
             </li>
-            <li>
+		    <li>
                 <a href="#projects">Projects</a>
             </li>
             <li>
@@ -48,9 +48,9 @@
 
     <div id="lead">
         <div id="lead-content">
-            <h1>Ryan Fitzgerald</h1>
-            <h2>Software Engineer</h2>
-            <a href="#" class="btn-rounded-white">Download Resume</a>
+            <h1>Jamie Farrelly</h1>
+            <h2>Software Developer</h2>
+            <a href="#contact" class="btn-rounded-white">Get in touch</a>
         </div>
         <!-- End #lead-content -->
 
@@ -86,12 +86,27 @@
     <div id="experience" class="background-alt">
         <h2 class="heading">Experience</h2>
         <div id="experience-timeline">
-            <div data-date="September 2015 – September 2016">
-                <h3>Employer Name</h3>
-                <h4>Job Title</h4>
+            <div data-date="Auguest 2014 – Present">
+                <h3>Fire Financial Services - <a href="https://fire.com" target="_blank">Fire.com</a></h3>
+                <h4>Software Developer</h4>
                 <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in iaculis ex. Etiam volutpat laoreet urna. Morbi ut tortor nec nulla commodo malesuada sit amet vel lacus. Fusce eget efficitur libero. Morbi dapibus porta quam laoreet placerat.
+                    Fire.com changes the way personal and business customers can open accounts (which comes with a MasterCard debit card), get access to payment services and create integrated solutions.
                 </p>
+                <br>
+                <ul>
+                    <li>
+                        Implementation of new features to multiple RESTFul APIs, consumed by the Fire's mobile apps (for personal customers) and through a web browser (for business customers) using Java.
+                    </li>
+                    <li>
+                        Developing front end applications - internal websites to manage customers etc, external websites to allow customers to manage their money. Mix of tech from JSPs to Angular JS.
+                    </li>
+                    <li>
+                        Implementation of features from start to finish from providing estimates for user stories, reviewing test cases, developing and writing automation tests around the new functionalities.
+                    </li>
+                    <li>
+                        Part of an agile team that highly values tests: unit tests at each layer of the application, integration tests along with web browser automation using Selenium.
+                    </li>
+                </ul>
             </div>
 
             <div data-date="September 2015 – September 2016">
@@ -116,11 +131,11 @@
     <div id="education">
         <h2 class="heading">Education</h2>
         <div class="education-block">
-            <h3>University of Ottawa</h3>
-            <span class="education-date">Sept 2016 - Sept 2017</span>
+            <h3>Dundalk Institute of Technology</h3>
+            <span class="education-date">2011 – 2014</span>
             <h4>Bachelor of Science in Computer Science</h4>
             <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in iaculis ex. Etiam volutpat laoreet urna. Morbi ut tortor nec nulla commodo malesuada sit amet vel lacus. Fusce eget efficitur libero. Morbi dapibus porta quam laoreet placerat.
+                Bachelor of Science in Computing in Software Development degree from DkIT (Achieved a 1:1 with a GPA of 77.8%). Out of 120 students in first year in my course my grades were in the top 5%.
             </p>
         </div>
         <!-- End .education-block -->
@@ -151,15 +166,15 @@
             <div class="row">
                 <div class="project shadow-large">
                     <div class="project-image">
-                        <img src="images/project.jpg" />
+                        <img src="images/fomocoin.png" />
                     </div>
                     <!-- End .project-image -->
                     <div class="project-info">
-                        <h3>Project Name Here</h3>
+                        <h3>FOMO Coin (Cryptocurrency)</h3>
                         <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in iaculis ex. Etiam volutpat laoreet urna. Morbi ut tortor nec nulla commodo malesuada sit amet vel lacus. Fusce eget efficitur libero. Morbi dapibus porta quam laoreet placerat.
+                            FOMO coin is a joke cryptocurrency that I created based on the Ethereum network.
                         </p>
-                        <a href="#">View Project</a>
+                        <a href="http://fomocoin.org" target="_blank">View Project</a>
                     </div>
                     <!-- End .project-info -->
                 </div>
@@ -167,15 +182,64 @@
 
                 <div class="project shadow-large">
                     <div class="project-image">
-                        <img src="images/project.jpg" />
+                        <img src="images/transport-strikes.png" />
                     </div>
                     <!-- End .project-image -->
                     <div class="project-info">
-                        <h3>Project Name Here</h3>
+                        <h3>Irish Transport Strikes (Android App)</h3>
                         <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in iaculis ex. Etiam volutpat laoreet urna. Morbi ut tortor nec nulla commodo malesuada sit amet vel lacus. Fusce eget efficitur libero. Morbi dapibus porta quam laoreet placerat.
+                            Android app to help people figure out when the Luas or bus drivers are on strike in Dublin. Picked up a decent bit of media attention on Joe.ie, The Irish Sun, Newstalk and more. 
                         </p>
-                        <a href="#">View Project</a>
+                        <a href="https://play.google.com/store/apps/details?id=com.jamiefarrelly.striketracker" target="_blank">View Project</a>
+                    </div>
+                    <!-- End .project-info -->
+                </div>
+                <!-- End .project -->
+            </div>
+            
+            <a id="view-more-projects" href="#">View More Projects</a>
+            <div id="more-projects" class="row">
+                <div class="project shadow-large">
+                    <div class="project-image">
+                        <img src="images/fire.png" />
+                    </div>
+                    <!-- End .project-image -->
+                    <div class="project-info">
+                        <h3>Fire.com Skill (Alexa Skill)</h3>
+                        <p>
+                            An Alexa skill that allows you to ask the likes of "Alexa, ask Pay with Fire to check my balance" and then Alexa will tell you how much money you have in each of your accounts.
+                        </p>
+                        <a href="https://github.com/JamieFarrelly/PayWithFireAlexa" target="_blank">View Project</a>
+                    </div>
+                    <!-- End .project-info -->
+                </div>
+                <!-- End .project -->
+                <div class="project shadow-large">
+                    <div class="project-image">
+                        <img src="images/fractionn.png" />
+                    </div>
+                    <!-- End .project-image -->
+                    <div class="project-info">
+                        <h3>Fractionn (Website)</h3>
+                        <p>
+                            Fractionn is a site that I worked on for a college project which allows users to set target prices for products from hundreds of retailers such as Amazon and get notified if the product ever reaches the price. This is a project which I created for my 3rd year project in college (since have taken it down, but it's on Archive.org)
+                        </p>
+                        <a href="http://web.archive.org/web/20160407013345/http://www.fractionn.com/" target="_blank">View Project</a>
+                    </div>
+                    <!-- End .project-info -->
+                </div>
+                <!-- End .project -->
+                <div class="project shadow-large">
+                    <div class="project-image">
+                        <img src="images/pokegone.png" />
+                    </div>
+                    <!-- End .project-image -->
+                    <div class="project-info">
+                        <h3>Pokegone (Chrome Extension)</h3>
+                        <p>
+                            PokeGone - Gotta block 'em all! A Chrome extension that removes Pokemon from the internet.
+                        </p>
+                        <a href="https://chrome.google.com/webstore/detail/pokegone-gotta-block-em-a/jionadcjdpdikjmgfohlohnclocfaija" target="_blank">View Project</a>
                     </div>
                     <!-- End .project-info -->
                 </div>
@@ -183,37 +247,26 @@
             </div>
         </div>
     </div>
+    
     <!-- End #projects -->
 
     <div id="skills">
         <h2 class="heading">Skills</h2>
         <ul>
-            <li>JavaScript</li>
-            <li>Python</li>
-            <li>Ruby</li>
-            <li>Go</li>
-            <li>Node.js</li>
-            <li>AngularJs</li>
-            <li>React</li>
-            <li>Elixir</li>
             <li>Java</li>
-            <li>C</li>
-            <li>C#</li>
-            <li>C++</li>
-            <li>Ruby on Rails</li>
-            <li>JavaScript</li>
-            <li>Python</li>
-            <li>Ruby</li>
-            <li>Go</li>
-            <li>Node.js</li>
+            <li>JSP</li>
+            <li>SQL Server</li>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>Javascript</li>
             <li>AngularJs</li>
-            <li>React</li>
-            <li>Elixir</li>
-            <li>Java</li>
-            <li>C</li>
-            <li>C#</li>
-            <li>C++</li>
-            <li>Ruby on Rails</li>
+            <li>TestNG</li>
+            <li>Selenium</li>
+            <li>Maven</li>
+            <li>AWS</li>
+            <li>Spring</li>
+            <li>GIT</li>
+            <li>Jenkins</li>
         </ul>
     </div>
     <!-- End #skills -->
@@ -236,9 +289,6 @@
         <div class="container">
             <div class="row">
                 <div class="col-sm-5 copyright">
-                    <p>
-                        Copyright &copy; 2017 YOUR NAME
-                    </p>
                 </div>
                 <div class="col-sm-2 top">
                     <span id="to-top">
@@ -248,19 +298,16 @@
                 <div class="col-sm-5 social">
                     <ul>
                         <li>
-                            <a href="https://github.com/" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a>
+                            <a href="https://github.com/JamieFarrelly" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a>
                         </li>
                         <li>
-                            <a href="https://stackoverflow.com/" target="_blank"><i class="fa fa-stack-overflow" aria-hidden="true"></i></a>
+                            <a href="https://medium.com/@JamieFarrelly" target="_blank"><i class="fa fa-medium" aria-hidden="true"></i></a>
                         </li>
                         <li>
-                            <a href="https://www.facebook.com/" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                            <a href="https://linkedin.com/in/jamiefarrelly" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
                         </li>
                         <li>
-                            <a href="https://twitter.com/" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a>
-                        </li>
-                        <li>
-                            <a href="https://plus.google.com/" target="_blank"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
+                            <a href="https://twitter.com/Jamie_Farrelly" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a>
                         </li>
                     </ul>
                 </div>
